@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.mainBgContainer {
+  background-color: #f4faff;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.cardsContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-2 {
+  width: 60%;
+  align-self: center;
+}

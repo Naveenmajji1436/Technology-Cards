@@ -1,0 +1,63 @@
+.oneCard {
+  border: 1px solid #64748b;
+  list-style-type: none;
+  width: 48%;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  height: 180px;
+  padding: 20px;
+}
+
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+.title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  align-self: flex-start;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 10px;
+  align-self: flex-start;
+  margin-top: 0px;
+  text-align: left;
+}
+.image {
+  width: 60px;
+  align-self: flex-end;
+}
+.listItems {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .oneCard {
+    border: 1px solid #64748b;
+    list-style-type: none;
+    width: 51%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 180px;
+    padding: 20px;
+  }
+}
